@@ -1,0 +1,53 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 1px solid black;
+}
+
+#corpo {
+    width: auto;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    align-content: center;
+}
+
+#topo {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 1px solid black;
+    text-align: center;
+    align-content: start;
+}
+
+#banner {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 1px solid black;
+    text-align: center;
+    align-content: flex-start;
+}
+
+#texto {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 1px solid black;
+    text-align: center;
+    align-content: normal;
+}
+
+#rodape {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 1px solid black;
+    text-align: center;
+    align-content: end;
+}
