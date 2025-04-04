@@ -1,57 +1,47 @@
 body {
-    width: 1000px;
-    margin: 0 auto;
-    padding: 0 20px 20px 20px;
+    width: auto;
+    height: auto;
     border: 1px solid black;
-}
-
-#titulo {
-    text-align: center;
 }
 
 #corpo {
     width: auto;
-    margin: 0 auto;
-    padding: 0 20px 20px 20px;
-    align-content: center;
+    height: auto; 
+    border: 5px black;
 }
 
 #topo {
     width: auto;
-    height: auto;
-    margin: 0 auto;
-    padding: 0 20px 20px 20px;
-    border: 1px solid black;
-    text-align: center;
-    align-content: start;
+    height: 100px; 
+    border: 3px solid greenyellow;
 }
 
-#banner {
-    width: auto;
-    height: auto;
-    margin: 0 auto;
-    padding: 0 20px 20px 20px;
-    border: 1px solid black;
-    text-align: center;
-    align-content: flex-start;
+#esquerda {
+    width: 200px;
+    height: 300px;
+    border: 3px solid pink;
+    padding: 5vw 0vw 5vw 0vw;
+    display: inline-block;
 }
 
-#texto {
-    width: auto;
-    height: auto;
-    margin: 0 auto;
-    padding: 0 20px 20px 20px;
-    border: 1px solid black;
-    text-align: center;
-    align-content: normal;
+#direita {
+    width: 200px;
+    height: 300px;
+    border: 3px solid green;
+    padding: 5vw 0vw 5vw 0vw;
+    display: inline-block;
+}
+
+#centro {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 3px yellow;
 }
 
 #rodape {
-    width: auto;
-    height: auto;
-    margin: 0 auto;
-    padding: 0 20px 20px 20px;
-    border: 1px solid black;
-    text-align: center;
-    align-content: end;
+    width: auto; 
+    height: 50px;
+    border: 3px solid purple;
+    text-align: end;
 }
