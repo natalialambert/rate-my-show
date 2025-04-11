@@ -1,87 +1,109 @@
-html {
-    font-family:'Courier New', Courier, monospace
-}
-
 body {
-    width: auto;
-    height: auto;
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
 }
 
 #corpo {
-    width: auto;
-    height: auto; 
+    max-width: 1200px;
+    margin: auto; 
 }
 
 #topo {
-    width: auto;
-    height: auto; 
-    border: 2px solid #FA8072;
+    background-color: #1c1c1c;
     border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border: none;
     text-align: center;
 }
 
+#topo h1 {
+    font-size: 2em;
+    color: #00d474;
+    margin: 10px 0 0 0;
+}
+
 #menu {
-    width: auto;
-    min-height: 20px;
-    border: 2px solid #FA8072;
+    background-color: #1c1c1c;
     border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
     display: flex;
+    text-align: center;
 }
 
-#botao1 {
-    flex: 1;
+#menu button {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
 }
 
-#botao2 {
-    flex: 2;
+#menu button:hover {
+    background-color: #00d474;
+    color: #000;
 }
 
-#botao3 {
-    flex: 3;
-}
-
-#botao4 {
-    flex: 4;
-}
-
-#botao5 {
+#botao1, #botao2, #botao3, #botao4, #botao5 {
     flex: 5;
 }
 
 
 #trio {
     display: flex;
-    height: 500px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+#esquerda, #direita, #centro {
+    background-color: #1c1c1c;
+    padding: 15px;
+    height: 350px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    text-align: center;
+    border-radius: 10px;
+}
+
+#esquerda img, #direita img {
+    border-radius: 10px;
 }
 
 #esquerda {
-    width: 100%;
-    border: 2px solid #FA8072;
-    border-radius: 10px;
     flex: 1;
-    text-align: center;
 }
 
 #direita {
-    width: 100%;
-    border: 2px solid #FA8072;
-    border-radius: 10px;
     flex: 1;
-    text-align: center;
 }
 
 #centro {
-    width: 100%;
-    border: 2px solid #FA8072;
-    border-radius: 10px;
     flex: 2;
-    text-align: center;
+}
+
+#centro iframe {
+    border-radius: 10px;
 }
 
 #rodape {
-    width: auto; 
-    height: auto;
-    border: 2px solid #FA8072;
+    margin-top: 20px;
+    background-color: #1c1c1c;
     border-radius: 10px;
+    padding: 20px;
+    border: none;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
     text-align: center;
+}
+
+#rodape p {
+    color: #aaaaaa;
+    margin-top: 10px;
 }
