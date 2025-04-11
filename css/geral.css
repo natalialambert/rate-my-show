@@ -1,5 +1,5 @@
 html {
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Courier New', Courier, monospace
 }
 
 body {
@@ -14,41 +14,65 @@ body {
 
 #topo {
     width: auto;
-    height: 100px; 
-    border: 5px solid #B22222;
+    height: auto; 
+    border: 2px solid #FA8072;
     border-radius: 10px;
     text-align: center;
+}
+
+#menu {
+    width: auto;
+    min-height: 20px;
+    border: 2px solid #FA8072;
+    border-radius: 10px;
     display: flex;
 }
 
-#logo {
-    width: 50px;
+#botao1 {
     flex: 1;
+}
+
+#botao2 {
+    flex: 2;
+}
+
+#botao3 {
+    flex: 3;
+}
+
+#botao4 {
+    flex: 4;
+}
+
+#botao5 {
+    flex: 5;
 }
 
 
 #trio {
     display: flex;
-    height: 1000px;
+    height: 500px;
 }
 
 #esquerda {
     width: 100%;
-    border: 5px solid #B22222;
+    border: 2px solid #FA8072;
     border-radius: 10px;
     flex: 1;
+    text-align: center;
 }
 
 #direita {
     width: 100%;
-    border: 5px solid #B22222;
+    border: 2px solid #FA8072;
     border-radius: 10px;
     flex: 1;
+    text-align: center;
 }
 
 #centro {
     width: 100%;
-    border: 5px solid #B22222;
+    border: 2px solid #FA8072;
     border-radius: 10px;
     flex: 2;
     text-align: center;
@@ -56,8 +80,8 @@ body {
 
 #rodape {
     width: auto; 
-    height: 50px;
-    border: 5px solid #B22222;
+    height: auto;
+    border: 2px solid #FA8072;
     border-radius: 10px;
     text-align: center;
 }
