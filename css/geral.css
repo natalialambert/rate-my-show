@@ -1,7 +1,7 @@
 body {
     background-color: #121212;
     color: #e0e0e0;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: Cambria, Georgia, serif;
     margin: 0;
     padding: 20px;
 }
@@ -20,12 +20,6 @@ body {
     text-align: center;
 }
 
-#topo h1 {
-    font-size: 2em;
-    color: #00d474;
-    margin: 10px 0 0 0;
-}
-
 #menu {
     background-color: #1c1c1c;
     border-radius: 10px;
@@ -42,6 +36,8 @@ body {
     border: none;
     padding: 10px 20px;
     font-weight: bold;
+    font-family: Cambria, Georgia, serif;
+    font-size: medium;
     cursor: pointer;
     border-radius: 8px;
     transition: all 0.3s ease;
@@ -52,18 +48,18 @@ body {
     color: #000;
 }
 
-#botao1, #botao2, #botao3, #botao4, #botao5 {
-    flex: 5;
+#botao1, #botao2, #botao3, #botao4 {
+    flex: 4;
 }
 
 
-#trio {
+#meio {
     display: flex;
     margin-top: 20px;
     gap: 20px;
 }
 
-#esquerda, #direita, #centro {
+#centro {
     background-color: #1c1c1c;
     padding: 15px;
     height: 350px;
@@ -73,18 +69,6 @@ body {
     border-radius: 10px;
 }
 
-#esquerda img, #direita img {
-    border-radius: 10px;
-}
-
-#esquerda {
-    flex: 1;
-}
-
-#direita {
-    flex: 1;
-}
-
 #centro {
     flex: 2;
 }
@@ -92,6 +76,26 @@ body {
 #centro iframe {
     border-radius: 10px;
 }
+
+#centro button {
+    background-color: #00d474;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    align-items: center;
+    font-family: Cambria, Georgia, serif;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+#centro button:hover {
+    background-color: #ffffff;
+    color: #000;
+}
+
 
 #rodape {
     margin-top: 20px;
