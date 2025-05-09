@@ -82,12 +82,42 @@
 
         <section>
           <h2>Fale conosco!</h2>
-          <p>Compartilhe reclamações, sugestões e opniões em geral sobre o Rate My Show no formulário abaixo.</p>
 
-          <a href="form-contato.html">
-            <button>Formulário para Contato</button>
-          </a>
-          
+          <form>
+
+            <fieldset>
+
+            <legend>Informações Pessoais</legend>
+
+            Nome: <input type="text" name="nome" placeholder="Digite seu nome"><br><br>
+            Email: <input type="text" name="email" placeholder="Digite seu email"><br><br>
+            Telefone: <input type="tel" name="telefone" placeholder="Digite seu telefone"><br><br>
+      
+            </fieldset>
+
+            <fieldset>
+
+            <legend>Mensagem</legend>
+
+            Motivo do contato:
+      
+            <select id="motivo" name="motivo-contato"> 
+
+            <option value="opniao">Opnião</option>
+            <option value="sugestao">Sugestão</option>
+            <option value="reclamacao">Reclamação</option> 
+
+            </select> <br><br>
+
+            Mensagem: <br>
+            <textarea placeholder="Escreva um comentário..."></textarea> <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+
+            </fieldset>
+
+          </form>
+
         </section>
 
       </div>

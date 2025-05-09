@@ -53,16 +53,12 @@ body {
 
 #centro {
     padding: 15px;
-    height: 350px;
+    height: 400px;
     text-align: center;
 }
 
 #centro {
     flex: 2;
-}
-
-#centro iframe {
-    border-radius: 10px;
 }
 
 #centro button {
