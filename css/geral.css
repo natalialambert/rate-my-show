@@ -81,7 +81,7 @@ body {
     color: #000;
 }
 
-.poster-gallery {
+.poster {
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
@@ -90,7 +90,7 @@ body {
     margin-bottom: 40px;
   }
   
-  .poster-gallery img {
+  .poster img {
     width: 150px;
     height: auto;
     border-radius: 8px;
@@ -98,7 +98,7 @@ body {
     transition: transform 0.3s ease;
   }
   
-  .poster-gallery img:hover {
+  .poster img:hover {
     transform: scale(1.05);
   }
 
@@ -111,6 +111,17 @@ body {
   }
   
   .reviews-section h3 {
+    font-weight: normal;
+    letter-spacing: 1.2px;
+    color: #777;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 8px;
+  }
+
+  .poster-gallery h3 {
     font-weight: normal;
     letter-spacing: 1.2px;
     color: #777;
@@ -182,6 +193,7 @@ form {
     box-shadow: 0 0 10px rgba(0, 212, 116, 0.2);
     max-width: 600px;
     margin: auto;
+    margin-bottom: 40px;
 }
 
 fieldset {
@@ -217,8 +229,7 @@ textarea {
     resize: vertical;
 }
 
-button[type="submit"],
-button[type="reset"] {
+button[type="submit"] {
     background-color: #00d474;
     color: #ffffff;
     border: none;
@@ -232,8 +243,7 @@ button[type="reset"] {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-button[type="submit"]:hover,
-button[type="reset"]:hover {
+button[type="submit"]:hover {
     background-color: #ffffff;
     color: #000000;
 }
