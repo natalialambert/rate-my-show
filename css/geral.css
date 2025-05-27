@@ -81,6 +81,26 @@ body {
     color: #000;
 }
 
+#link {
+  color: #00d474 ;
+}
+
+.container-sobre {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+}
+
+.esquerda {
+  text-align: center;
+  flex: 2;
+}
+
+.direita {
+  text-align: center;
+  flex: 2;
+}
+
 .poster {
     display: flex;
     gap: 16px;
