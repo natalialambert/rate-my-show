@@ -301,6 +301,145 @@ button[type="submit"]:hover {
     color: #000;
 }
 
+
+.perfil {
+  display: flex;
+  text-align: left;
+  gap: 20px;
+  border-bottom: 1px solid #333;
+  margin-bottom: 20px;
+}
+
+.foto-perfil {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.perfil h1 {
+  margin: 0;
+}
+
+.secao h2 {
+  margin-bottom: 10px;
+  font-weight: normal;
+  letter-spacing: 1.2px;
+  color: #777;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+
+.texto {
+  text-align: left;
+}
+
+.galeria {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #333;
+  margin-bottom: 20px;
+}
+
+.galeria img {
+  width: 150px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s;
+  margin-bottom: 15px;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item img {
+  width: 150px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.estrelas {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #00d474;
+}
+
+.estrelas .vazia {
+  color: #555;
+  opacity: 0.4;
+}
+
+.review {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.review img {
+  width: 60px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.review-content {
+  flex: 1;
+}
+
+.review-content h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.review-content h2 span {
+  color: #aaa;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.rating {
+  margin: 5px 0;
+  color: #00b35a;
+  font-size: 14px;
+}
+
+.rating span.watched {
+  color: #aaa;
+  margin-left: 10px;
+}
+
+.review-content p {
+  margin: 5px 0 8px 0;
+  font-size: 14px;
+}
+
+.likes {
+  font-size: 13px;
+  color: #7b7e84;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #2e333a;
+  margin: 10px 0;
+}
+
 #rodape {
     margin-top: 20px;
     padding: 20px;
