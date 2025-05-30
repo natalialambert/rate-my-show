@@ -16,33 +16,25 @@ body {
     text-align: center;
 }
 
-#menu {
-    margin-top: 20px;
-    padding: 10px;
-    display: flex;
-    text-align: center;
+.menu {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #2a2a2a;
+  padding-bottom: 10px;
 }
 
-#menu button {
-    background-color: #2a2a2a;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    font-weight: bold;
-    font-family: Cambria, Georgia, serif;
-    font-size: medium;
-    cursor: pointer;
-    border-radius: 8px;
-    transition: all 0.3s ease;
+.menu a {
+  text-decoration: none;
+  color: #e0e0e0;
+  padding: 5px;
+  border-radius: 5px;
+  flex: 5;
 }
 
-#menu button:hover {
-    background-color: #00d474;
-    color: #000;
-}
-
-#botao1, #botao2, #botao3, #botao4, #botao5 {
-    flex: 5;
+.menu a:hover {
+  color: #00d474;
 }
 
 #meio {
@@ -439,6 +431,20 @@ hr {
   border-top: 1px solid #2e333a;
   margin: 10px 0;
 }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.gallery img:hover {
+  transform: scale(1.05);
 
 #rodape {
     margin-top: 20px;
