@@ -432,27 +432,28 @@ hr {
   margin: 10px 0;
 }
 
-.gallery {
+.galeria-lista {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 20px;
 }
-.gallery img {
+.galeria-lista img {
   width: 100%;
   border-radius: 8px;
   transition: transform 0.3s;
   cursor: pointer;
 }
-.gallery img:hover {
+.galeria-lista img:hover {
   transform: scale(1.05);
+}
 
-#rodape {
-    margin-top: 20px;
-    padding: 20px;
-    text-align: center;
+#ropade {
+  margin-top: 20px;
+  padding: 20px;
 }
 
 #rodape p {
-    color: #aaaaaa;
-    margin-top: 10px;
+  color: #aaaaaa;
+  margin-top: 10px;
+  text-align: center;
 }
